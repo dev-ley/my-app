@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+        fontFamily: {
+          graphik: ['Graphik', 'sans-serif'],
+          'graphik-bold':['GraphikBold', 'sans-serif']
+        },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
