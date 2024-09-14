@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'GraphikBold';
+    src: url('/fonts/Graphik-Bold-Trial.otf') format('opentype'); /* O caminho deve ser relativo à pasta public */
+    font-weight: bold;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'Graphik';
+    src: url('/fonts/Graphik-Regular-Trial.otf') format('opentype'); /* O caminho deve ser relativo à pasta public */
+    font-weight: 100;
+    font-style: normal;
+  }
+
+.containerContent1{
+    margin: 30px 20px;
+    height: 698px;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containertext > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.containertext > div > h2 {
+    font-size: 48px;
+    text-align: center;
+    width: 353px;
+    height: 185px;
+    line-height: 1.2;
+    letter-spacing: 0.2;
+    margin: 5px;
+    margin-top: 20px;
+    font-family: 'Graphik', sans-serif;
+
+}
+
+.containertext > div > p {
+    font-size: 26px;
+    text-align: center;
+    width: 353px;
+    height: 150px;
+    line-height: 1.5;
+    margin: 20px 0px 0px 0px;
+    letter-spacing: 0.05cm;
+    font-family: 'Graphik', sans-serif;
+
+
+}
+
+.containertext > div > button {
+    font-size: 20px;
+    text-align: center;
+    width: 236px;
+    height: 52px;
+    border-radius: 35px;
+    background-color: #2091F9;
+
+    
+}
