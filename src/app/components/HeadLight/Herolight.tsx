@@ -1,5 +1,5 @@
 
-const Content1 = () => {
+const Herolight = () => {
   return (
     <div className='mx-[30px] mt-[42px] my-[20px] h-[698px] py-[50px] flex flex-col items-center '>
         <div>
@@ -15,4 +15,4 @@ const Content1 = () => {
   )
 }
 
-export default Content1
+export default Herolight

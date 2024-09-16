@@ -1,5 +1,5 @@
-import Content1 from './Content1'
-import Navbar from './Navebar'
+import Content1 from './Herolight'
+import Navbar from './Navbar'
 
 const HeadLight = () => {
   return (
