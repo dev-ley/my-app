@@ -15,9 +15,10 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        corbtn: "#2091F9"
       },
     },
-  },
+  },  
   plugins: [],
 };
 export default config;

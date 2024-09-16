@@ -2,7 +2,6 @@
 
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import './Navebar.css';
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -35,9 +34,9 @@ const Navbar = () => {
   }, [menuOpen]);
 
   return (
-    <header className="header">
-      <div className="container-header">
-        <div className="container-logo">
+    <header className="relative p-4">
+      <div className="flex justify-between items-center">
+        <div className="flex-shrink-0">
           <Image
             className="logo"
             src="/images/navbar/Rectangle.svg"
@@ -47,7 +46,7 @@ const Navbar = () => {
           />
         </div>
 
-        <div className="menu-hamburguer" onClick={toggleMenu}>
+        <div className="cursor-pointer" onClick={toggleMenu}>
           <Image
             src="/images/navbar/bntnavebarh.svg"
             alt="Menu hamburguer"
@@ -57,13 +56,17 @@ const Navbar = () => {
         </div>
       </div>
 
-      <nav onClick={toggleMenu} className={`side-nav ${menuOpen ? 'open' : ''}`}>
+      <nav onClick={toggleMenu} className={`fixed top-0 right-0 h-full bg-black/80 text-white flex flex-col justify-center items-start p-4 transform transition-transform duration-300 ${
+          menuOpen ? 'translate-x-0' : 'translate-x-full'
+        }`}
+        style={{ width: '250px' }} // Pode ajustar dinamicamente o width em Tailwind se necessário
+      >
         
-        <a href="#">Home</a>
-        <a href="#">Product</a>
-        <a href="#">Pricing</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">Home</a>
+        <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">Product</a>
+        <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">Pricing</a>
+        <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">About</a>
+        <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">Contact</a>
       </nav>
     </header>
   );
