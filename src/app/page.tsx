@@ -1,9 +1,9 @@
-import Section1 from "./components/HeadLight/HeadLight";
+import HeadLight from "./components/HeadLight/HeadLight";
 
 export default function Home() {
   return (
     <main>
-      <Section1/>
+      <HeadLight/>
     </main>
   );
 }
