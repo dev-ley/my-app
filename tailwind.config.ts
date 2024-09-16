@@ -10,7 +10,7 @@ const config: Config = {
     extend: {
         fontFamily: {
           graphik: ['Graphik', 'sans-serif'],
-          'graphik-bold':['GraphikBold', 'sans-serif']
+          graphikBold:['GraphikBold', 'sans-serif']
         },
       colors: {
         background: "var(--background)",
