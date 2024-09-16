@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="flex-shrink-0">
           <Image
             className="logo"
-            src="/images/navbar/rectangle.svg"
+            src="/images/navbar/logo.svg"
             alt="Logo"
             width={186}
             height={58}
@@ -48,7 +48,7 @@ const Navbar = () => {
 
         <div className="cursor-pointer" onClick={toggleMenu}>
           <Image
-            src="/images/navbar/bntnavebarh.svg"
+            src="/images/navbar/btnmenu.svg"
             alt="Menu hamburguer"
             width={40}
             height={32}
