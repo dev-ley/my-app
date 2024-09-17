@@ -1,8 +1,10 @@
+'use client'
 import React from 'react'
 import Tittle from '../Texto/Tittle'
 import Paragraph from '../Texto/Paragraph'
 import Button from '../Button/Button'
 import Image from 'next/image'
+import { Play } from '../Utils/play'
 
 
 const FastOrfanize = () => {
@@ -18,7 +20,7 @@ const FastOrfanize = () => {
                     </Paragraph>
                 </div>
                 <div className='flex flex-col items-center h-[60px] '>
-                    <Button textFamily="font-graphikBold font-extrabold" textColor='text-white' cor="bg-corbtn">
+                    <Button onClick={Play} textFamily="font-graphikBold font-extrabold" textColor='text-white' cor="bg-corbtn">
                         Try For Free
                     </Button>
                 </div>

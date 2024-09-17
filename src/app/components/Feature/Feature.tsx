@@ -5,12 +5,9 @@ import Tittle from '../Texto/Tittle'
 import Paragraph from '../Texto/Paragraph'
 import Image from 'next/image'
 import ItemFeature from './ItemFeature'
+import { Play } from '../Utils/play'
 
 const Feature = () => {
-
-  const Play = (): void => {
-    alert('Você clicou no Play!')
-  }
 
   return (
     <section className='flex flex-col items-center  mt-[24px] w-full h-[1596.12px] '>

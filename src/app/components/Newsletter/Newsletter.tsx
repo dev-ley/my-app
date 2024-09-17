@@ -1,7 +1,9 @@
+'use client'
 import React from 'react'
 import Tittle from '../Texto/Tittle'
 import Paragraph from '../Texto/Paragraph'
 import Image from 'next/image'
+import { Play } from '../Utils/play'
 
 const Newsletter = () => {
   return (
@@ -39,10 +41,10 @@ const Newsletter = () => {
         </p>
 
         <div className='h-[168px] flex flex-col gap-[12px] '>
-            <label htmlFor="Subscribe" className='w-[353px] h-[54px] text-[14px] flex flex-col px-[35px] py-[19px] gap-[47px] '>
-              Your Email
-            </label>
-          <input name='Subscribe' value={'Subscribe'} type="button" className='bg-[#2091F9] text-[20px] text-white rounded-[35px] h-[54px]'  />
+          <label htmlFor="Subscribe" className='w-[353px] h-[54px] text-[14px] flex flex-col px-[35px] py-[19px] gap-[47px] '>
+            Your Email
+          </label>
+          <input onClick={Play} name='Subscribe' value={'Subscribe'} type="button" className='bg-[#2091F9] text-[20px] text-white rounded-[35px] h-[54px]' />
         </div>
       </div>
 
