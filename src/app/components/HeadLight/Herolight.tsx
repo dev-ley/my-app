@@ -8,7 +8,7 @@ const Herolight = () => {
     <div className='mx-[30px] mt-[42px] my-[20px] h-[698px] py-[50px] flex flex-col items-center'>
       <div>
         <div className="flex flex-col items-center">
-          <Tittle font='text-[48px]' fontFamily='text-graphikBolder' cor='text-white'>
+          <Tittle fontFamily='text-graphikBolder' cor='text-white'>
             The best products start with Figma
           </Tittle>
           <Paragraph cor='text-white' font='text-[24px]' fontFamily='font-graphikBolder'>
