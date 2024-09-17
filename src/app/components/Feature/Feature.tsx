@@ -13,7 +13,7 @@ const Feature = () => {
   }
 
   return (
-    <section className='flex flex-col items-center  mt-[24px] w-full h-[1596.12px]'>
+    <section className='flex flex-col items-center  mt-[24px] w-full h-[1596.12px] '>
       <div className="flex flex-col items-center  w-[285px] h-[182px] mx-[66.5px] mt-[80px]">
           <Tittle fontFamily='text-graphikBolder' cor='text-black'>
             Features
@@ -32,7 +32,7 @@ const Feature = () => {
            />
         </div>
 
-        <div className='flex flex-col  w-[255px] h-[924px] mx-[85px] py-[18px] gap-[75px] mt-[50px]'>
+        <div className='flex flex-col  w-[255px] h-[924px] mx-[85px] py-[18px] gap-[75px] my-[50px]'>
           <ItemFeature
           imagem='mdi_drawing' 
           titulo='OpenType features Variable fonts'
