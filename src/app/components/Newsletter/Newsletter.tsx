@@ -7,7 +7,7 @@ import { Play } from '../Utils/play'
 
 const Newsletter = () => {
   return (
-    <div className='h-[1003px] flex flex-col justify-center items-center gap-[59px] py-[80px] px-[10px]'>
+    <section className='border  border-red-500 h-[1003px] flex flex-col justify-center items-center gap-[59px] py-[80px] px-[10px]'>
       <div className=' h-[217px] flex flex-col items-center gap-[7px]'>
         <p className='text-[20px] font-graphikBold font-extrabold'>
           At your fingertips
@@ -48,7 +48,7 @@ const Newsletter = () => {
         </div>
       </div>
 
-    </div>
+    </section>
   )
 }
 
