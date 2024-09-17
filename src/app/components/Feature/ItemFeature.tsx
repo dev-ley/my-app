@@ -20,7 +20,7 @@ const ItemFeature = ({ imagem, titulo, texto }: ItemProps) => {
             </div>
 
             <div className=' w-[238px] h-[76px] flex content-center text-center'>
-                <p className='text-[20px] font-graphikBold font-extrabold'>
+                <p className='text-[20px] font-graphikBold  font-extrabold text-center '>
                     {titulo}
                 </p>
             </div>
