@@ -4,6 +4,7 @@ interface TextProps {
     children: string;
     fontFamily:string;
     cor:string;
+    
 }
 
 const Tittle = ({ children, fontFamily, cor }:TextProps) => {

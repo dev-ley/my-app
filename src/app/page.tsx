@@ -3,7 +3,7 @@ import HeadLight from "./components/HeadLight/HeadLight";
 
 export default function Home() {
   return (
-    <main className=" flex flex-col items-center justify-center">
+    <main>
       <HeadLight/>
       <Feature/>
     </main>
