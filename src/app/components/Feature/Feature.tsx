@@ -8,7 +8,7 @@ import ItemFeature from './ItemFeature'
 
 const Feature = () => {
 
-  const Play = ():any => {
+  const Play = ():void => {
     alert('Você clicou no Play!')
   }
 
