@@ -4,6 +4,7 @@ import Tittle from '../Texto/Tittle'
 import Paragraph from '../Texto/Paragraph'
 import Image from 'next/image'
 import { Play } from '../Utils/play'
+import Button from '../Button/Button'
 
 const Newsletter = () => {
   return (
@@ -40,11 +41,9 @@ const Newsletter = () => {
           Available exclusivery on Figmaland
         </p>
 
-        <div className='h-[168px] flex flex-col gap-[12px] '>
-          <label htmlFor="Subscribe" className='w-[353px] h-[54px] text-[14px] flex flex-col px-[35px] py-[19px] gap-[47px] '>
-            Your Email
-          </label>
-          <input onClick={Play} name='Subscribe' value={'Subscribe'} type="button" className='bg-[#2091F9] text-[20px] text-white rounded-[35px] h-[54px]' />
+        <div className='h-[168px] flex flex-col items-center justify-center gap-[12px] '>
+          <input type="text" id='Subscribe' name='Subscribe' placeholder='Your Email' className='w-[353px] h-[54px] text-[14px] flex flex-col px-[35px] py-[19px] gap-[47px] rounded-[39px] placeholder-black border border-gray-200' />
+          <Button onClick={Play} text='Subscribe' textSize={20} width={353} height={54} />
         </div>
       </div>
 

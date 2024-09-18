@@ -7,7 +7,7 @@ import Paragraph from '../Texto/Paragraph';
 import { Play } from '../Utils/play';
 
 const Herolight = () => {
-  
+
   return (
     <div className='mx-[30px] mt-[42px] my-[20px] h-[698px] py-[50px] flex flex-col items-center'>
       <div>
@@ -20,9 +20,7 @@ const Herolight = () => {
           </Paragraph>
         </div>
         <div className="flex flex-col items-center">
-          <Button onClick={Play} textFamily="font-graphikBold" textColor='text-white' cor="bg-corbtn">
-            Try For Free
-          </Button>
+          <Button text='Try For Free' onClick={Play} textFamily="graphikBold" textSize={20} />
         </div>
       </div>
     </div>

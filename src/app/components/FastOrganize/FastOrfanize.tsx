@@ -20,9 +20,7 @@ const FastOrfanize = () => {
                     </Paragraph>
                 </div>
                 <div className='flex flex-col items-center h-[60px] '>
-                    <Button onClick={Play} textFamily="font-graphikBold font-extrabold" textColor='text-white' cor="bg-corbtn">
-                        Try For Free
-                    </Button>
+                    <Button onClick={Play} text='Try For Free' textSize={20} peso={800} height={60} />
                 </div>
                 <div className='flex flex-col items-center h-[255px] '>
                     <Image

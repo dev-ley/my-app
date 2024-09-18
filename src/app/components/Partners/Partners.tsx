@@ -24,9 +24,7 @@ const Partners = () => {
                     <CardPartners src='/images/partners/microsoft.svg' alt='logo da microsoft' width={221} height={77} />
                 </div>
                 <div className='flex flex-col items-center h-[60px] '>
-                    <Button onClick={Play} textFamily="font-graphikBold font-extrabold" textColor='text-white' cor="bg-corbtn">
-                        Try For Free
-                    </Button>
+                    <Button text='Try For Free' onClick={Play} width={236} height={60} textSize={20} peso={800} />
                 </div>
             </div>
         </section>

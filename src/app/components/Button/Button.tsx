@@ -1,19 +1,46 @@
 import React from 'react'
 
 interface ButtonProps {
-  children: React.ReactNode; // O conteúdo do botão
   onClick: (event: React.MouseEvent<HTMLButtonElement>) => void;
-  textColor: string;
-  textFamily: string;
-  cor: string; // A cor do botão, passado como uma string
+  text: string;
+  peso?: number;
+  textColor?: string;
+  textSize?: number;
+  textFamily?: string;
+  cor?: string;
+  width?: number;
+  height?: number;
+
 }
 
-const button = ({ children, onClick, cor, textColor, textFamily }: ButtonProps) => {
+const Button = ({
+  onClick,
+  text,
+  peso,
+  textColor = 'white',
+  textSize = 16,
+  textFamily,
+  cor = '#2091F9',
+  width = 236,
+  height = 52 }: ButtonProps) => {
+
   return (
-    <button onClick={(onClick)} className={`text-[20px] ${textColor} ${textFamily} text-center w-[236px] h-[52px] rounded-[35px] ${cor}`}>
-      {children}
+    <button onClick={(onClick)}
+      className={`
+        text-${textColor} 
+        font-${textFamily} 
+        rounded-[35px] 
+        text-center`}
+      style={{
+        backgroundColor: `${cor}`,
+        width: `${width}px`,
+        height: `${height}px`,
+        fontSize: `${textSize}px`,
+        fontWeight: `${peso}`,
+      }}>
+      {text}
     </button>
-  )
+  );
 }
 
-export default button
+export default Button
