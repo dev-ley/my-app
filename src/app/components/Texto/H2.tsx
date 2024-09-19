@@ -9,10 +9,7 @@ interface H2Props {
 
 const H2 = ({ text, fontSize = 48, fontFamily = 'graphik', cor }: H2Props) => {
   return (
-    <h2 className={`
-      text-[${fontSize}px] 
-      text-${cor}`}
-    
+    <h2     
       style={{
         fontSize: `${fontSize}px`,
         color: `${cor}`,

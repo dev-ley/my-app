@@ -3,13 +3,13 @@ import React from 'react'
 interface H4Props {
   text: string;
   cor?: string;
-  font?: string;
+  font?: number;
   fontFamily?: string;
 }
 
 const H4 = ({ text, cor, font = 28, fontFamily }: H4Props) => {
   return (
-    <p 
+    <h4 
     style={{
       color: cor,
       fontFamily: fontFamily,
@@ -17,7 +17,7 @@ const H4 = ({ text, cor, font = 28, fontFamily }: H4Props) => {
 
     }}>
       {text}
-    </p>
+    </h4>
   )
 }
 
