@@ -18,7 +18,7 @@ const Testimonials = () => {
         <div className='w-[297px] h-[281px] flex flex-col items-center text-center gap-[50px] py-[15px]'                                 >
           <Image src={'/Images/testimonial/logos_ibm.png'} alt='logo da ...' width={127} height={51} />
           <H3 fontFamily='graphik' fontSize={14.2} text='Most calendars are designed for teams. Slate is designed for freelancers who want a simpleway to plan their schedule.' />
-          <Client imagem='avatar.png' name='Organize across' job='Ui designer'/>
+          <Client imagem='avatar' name='Organize across' job='Ui designer'/>
         </div>
 
         <div>
