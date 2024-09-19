@@ -1,15 +1,15 @@
 import React from 'react'
 
-interface H2Props {
+interface H1Props {
   text: string;
   fontSize?: number;
   fontFamily?: string;
   cor?: string;
 }
 
-const H2 = ({ text, fontSize = 48, fontFamily = 'graphik', cor }: H2Props) => {
+const H1 = ({ text, fontSize = 74, fontFamily = 'Graphik-bold', cor }: H1Props) => {
   return (
-    <h2     
+    <h1     
       style={{
         fontSize: `${fontSize}px`,
         fontFamily: `${fontFamily}`,
@@ -17,8 +17,8 @@ const H2 = ({ text, fontSize = 48, fontFamily = 'graphik', cor }: H2Props) => {
       }}>
 
       {text}
-    </h2>
+    </h1>
   )
 }
 
-export default H2
+export default H1

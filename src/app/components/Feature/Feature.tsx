@@ -21,7 +21,7 @@ const Feature = () => {
       </div>
 
       <div className='mt-[50px] flex flex-col justify-center items-center cursor-pointer mx-[16.5px] w-[90%] h-[229px]  rounded-[26.7px]   bg-center bg-no-repeat' style={{ backgroundImage: "url('/images/feature/screen.svg')" }}>
-        <Image onClick={Play}
+        <Image onClick={Play} 
           src="/images/feature/playbutton.svg"
           alt="Botão de Play"
           width={61.42}

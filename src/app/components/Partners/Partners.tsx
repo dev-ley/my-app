@@ -11,10 +11,8 @@ const Partners = () => {
         <section className='border border-blue-500 h-[1060px] px-[20px]'>
             <div className=' h-[1060px] flex flex-col gap-[80px] px-[20px] py-[50px]'>
                 <div className='h-[182px] flex flex-col items-center gap-[7px] text-center'>
-                    <H2  text='Partners' />
-                        
-                    <H4 text='Most calendars are designed for teams.' />
-                        
+                    <H2  text='Partners' />  
+                    <H4 text='Most calendars are designed for teams.' />       
                 </div>
                 <div className='h-[558px] flex flex-col gap-[30px] py-[18px]'>
                     <CardPartners src='/images/partners/logos_google.svg' alt='logo da google' width={193} height={63} />

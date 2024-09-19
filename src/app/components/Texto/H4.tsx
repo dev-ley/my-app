@@ -2,20 +2,26 @@ import React from 'react'
 
 interface H4Props {
   text: string;
-  cor?: string;
-  font?: number;
+  fontSize?: number;
   fontFamily?: string;
+  peso?:number;
+  textSpacing?:number;
+  cor?: string;
+
 }
 
-const H4 = ({ text, cor, font = 28, fontFamily }: H4Props) => {
+const H4 = ({ text, fontSize = 28, peso, fontFamily = 'Graphik',textSpacing = 0.2, cor }: H4Props) => {
   return (
     <h4 
     style={{
-      color: cor,
+      fontSize: `${fontSize}px`,
       fontFamily: fontFamily,
-      fontSize: `${font}px`,
+      fontWeight: `${peso}`,
+      letterSpacing: `${textSpacing}px`,
+      color: cor,
 
     }}>
+
       {text}
     </h4>
   )
