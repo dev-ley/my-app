@@ -12,7 +12,7 @@ const Client = ({imagem, name, job}:ClientProps) => {
   return (
     <div className='flex gap-[10px] border w-[128px] h-[42px]'>
       <div className='w-[42px] h-[42px]'>
-        <Image src={`/Images/testimonial/${imagem}.svg`} alt='logo avatar' width={127} height={51} />
+        <Image src={`/Images/testimonial/${imagem}`} alt='logo avatar' width={127} height={51} />
       </div>
 
       <div className='flex flex-col items-center justify-center  w-[75px] h-[42px]'>
