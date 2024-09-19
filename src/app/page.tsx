@@ -3,6 +3,7 @@ import Feature from "./components/Feature/Feature";
 import HeadLight from "./components/HeadLight/HeadLight";
 import Newsletter from "./components/Newsletter/Newsletter";
 import Partners from "./components/Partners/Partners";
+import Testimonials from "./components/Testimonials/Testimonials";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <FastOrfanize />
       <Newsletter />
       <Partners />
+      <Testimonials />
     </main>
   );
 }

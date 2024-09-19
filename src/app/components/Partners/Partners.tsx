@@ -8,7 +8,7 @@ import CardPartners from './CardPartners'
 
 const Partners = () => {
     return (
-        <section className='border border-blue-500 h-[1060px] px-[20px]'>
+        <section className=' h-[1060px] px-[20px]'>
             <div className=' h-[1060px] flex flex-col gap-[80px] px-[20px] py-[50px]'>
                 <div className='h-[182px] flex flex-col items-center gap-[7px] text-center'>
                     <H2  text='Partners' />  
