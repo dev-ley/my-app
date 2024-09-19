@@ -10,12 +10,13 @@ const config: Config = {
     extend: {
         fontFamily: {
           graphik: ['Graphik', 'sans-serif'],
-          graphikBold:['GraphikBold', 'sans-serif']
+          graphikBold:['Graphik-bold', 'sans-serif']
         },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        corbtn: "#2091F9"
+        corbtn: "#2091F9",
+        branco: "FFFFFF"
       },
     },
   },  

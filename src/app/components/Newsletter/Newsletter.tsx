@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
-import Tittle from '../Texto/Tittle'
-import Paragraph from '../Texto/Paragraph'
+import H2 from '../Texto/H2'
+import H4 from '../Texto/H4'
 import Image from 'next/image'
 import { Play } from '../Utils/play'
 import Button from '../Button/Button'
@@ -9,19 +9,15 @@ import Button from '../Button/Button'
 const Newsletter = () => {
   return (
     <section className='border  border-red-500 h-[1003px] flex flex-col justify-center items-center gap-[59px] py-[80px] px-[10px]'>
-      <div className=' h-[217px] flex flex-col items-center gap-[7px]'>
+      <div className=' text-center h-[217px] flex flex-col items-center gap-[7px]'>
         <p className='text-[20px] font-graphikBold font-extrabold'>
           At your fingertips
         </p>
 
-        <Tittle fontFamily='' cor=''>
-          Newsletter
-        </Tittle>
-
-        <Paragraph cor='' font='text-[23px]' fontFamily=''>
-          Most calendars are designed for teams.
-        </Paragraph>
-
+        <H2 text='Newsletter' />
+          
+        <H4 text='Most calendars are designed for teams.' />
+         
       </div>
 
       <div className='h-[347px] flex flex-col gap-[7px]'>
