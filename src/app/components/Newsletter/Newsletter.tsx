@@ -18,12 +18,7 @@ const Newsletter = () => {
       </div>
 
       <div className='h-[347px] flex flex-col gap-[7px]'>
-        <Image
-          src={`/images/newsletter/container.svg`}
-          alt='imagem newsletter'
-          width={371}
-          height={348}
-        />
+        <Image src={`/images/newsletter/container.svg`} alt='imagem newsletter' width={371} height={348} />
       </div>
 
       <div className=' h-[261px] flex flex-col text-center gap-[7px]'>
@@ -34,7 +29,7 @@ const Newsletter = () => {
           <Button onClick={Play} peso={100} text='Subscribe' textSize={20} width={353} height={54} />
         </div>
       </div>
-      
+
     </section>
   )
 }

@@ -13,16 +13,7 @@ interface ButtonProps {
 
 }
 
-const Button = ({
-  onClick,
-  text,
-  peso,
-  textColor = 'white',
-  textSize = 16,
-  textFamily,
-  cor = '#2091F9',
-  width = 236,
-  height = 52 }: ButtonProps) => {
+const Button = ({ onClick, text, peso, textColor = 'white', textSize = 16, textFamily, cor = '#2091F9', width = 236, height = 52 }: ButtonProps) => {
 
   return (
     <button onClick={(onClick)}

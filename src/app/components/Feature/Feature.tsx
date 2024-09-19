@@ -21,29 +21,13 @@ const Feature = () => {
       </div>
 
       <div className='mt-[50px] flex flex-col justify-center items-center cursor-pointer mx-[16.5px] w-[90%] h-[229px]  rounded-[26.7px]   bg-center bg-no-repeat' style={{ backgroundImage: "url('/images/feature/screen.svg')" }}>
-        <Image onClick={Play} 
-          src="/images/feature/playbutton.svg"
-          alt="Botão de Play"
-          width={61.42}
-          height={61.42}
-        />
+        <Image onClick={Play} src="/images/feature/playbutton.svg" alt="Botão de Play" width={61.42} height={61.42} />
       </div>
 
       <div className=' flex flex-col  w-[255px] h-[924px] mx-[85px] py-[18px] gap-[75px] my-[50px]'>
-        <ItemFeature
-          imagem='mdi_drawing'
-          titulo='OpenType features Variable fonts'
-          texto='Slate helps you see how many more days you need to work to reach your financial goal.' />
-
-        <ItemFeature
-          imagem='mdi_draw'
-          titulo='Design with real data'
-          texto='Slate helps you see how many more days you need to work to reach your financial goal.' />
-
-        <ItemFeature
-          imagem='mdi_brush'
-          titulo='Fastest way to take action'
-          texto='Slate helps you see how many more days you need to work to reach your financial goal.' />
+        <ItemFeature imagem='mdi_drawing' titulo='OpenType features Variable fonts' texto='Slate helps you see how many more days you need to work to reach your financial goal.' />
+        <ItemFeature imagem='mdi_draw' titulo='Design with real data' texto='Slate helps you see how many more days you need to work to reach your financial goal.' />
+        <ItemFeature imagem='mdi_brush' titulo='Fastest way to take action' texto='Slate helps you see how many more days you need to work to reach your financial goal.' />
       </div>
 
     </section>
