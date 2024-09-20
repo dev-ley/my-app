@@ -9,7 +9,7 @@ interface H1Props {
 
 const H1 = ({ text, fontSize = 74, fontFamily = 'Graphik-bold', cor }: H1Props) => {
   return (
-    <h1     
+    <h1
       style={{
         fontSize: `${fontSize}px`,
         fontFamily: `${fontFamily}`,

@@ -2,13 +2,13 @@ import Image from 'next/image'
 import React from 'react'
 
 interface ClientProps {
-  imagem:string;
-  name:string;
-  job:string;
+  imagem: string;
+  name: string;
+  job: string;
 }
 
 
-const Client = ({imagem, name, job}:ClientProps) => {
+const Client = ({ imagem, name, job }: ClientProps) => {
   return (
     <div className='flex gap-[10px] border w-[128px] h-[42px]'>
       <div className='w-[42px] h-[42px]'>

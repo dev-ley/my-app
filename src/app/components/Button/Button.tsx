@@ -28,6 +28,8 @@ const Button = ({ onClick, text, peso, textColor = 'white', textSize = 16, textF
         height: `${height}px`,
         fontSize: `${textSize}px`,
         fontWeight: `${peso}`,
+        color:`${textColor}`,
+        
       }}>
       {text}
     </button>
