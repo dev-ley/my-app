@@ -10,7 +10,7 @@ import H4 from '../Texto/H4'
 const Feature = () => {
 
   return (
-    <section className='flex flex-col items-center  mt-[24px] w-full h-[1596.12px] '>
+    <section className='flex flex-col items-center lg: mt-[24px] w-full h-[1596.12px] '>
       <div className="flex flex-col items-center  w-[285px] h-[182px] mx-[66.5px] mt-[80px]">
         <div className='text-center w-[353px] h-[185px] leading-[1.2] tracking-[0.2px] m-[5px] mt-[20px] '>
           <H2 text='Features' />

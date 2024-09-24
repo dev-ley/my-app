@@ -59,7 +59,7 @@ const Navbar = () => {
       <nav onClick={toggleMenu} className={`fixed top-0 right-0 h-full bg-black/80 text-white flex flex-col justify-center items-start p-4 transform transition-transform duration-300 ${menuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
         style={{ width: '250px' }} // Pode ajustar dinamicamente o width em Tailwind se necessário
-      >
+>
 
         <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">Home</a>
         <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">Product</a>
