@@ -9,8 +9,8 @@ import Client from './Client'
 
 const Testimonials = () => {
   return (
-    <section className=' items-center border h-[788px] flex flex-col pt-[10px] px-[28px]'>
-      <div className=' items-center border w-[359px] h-[776px] flex flex-col gap-[80px] py-[100px]'>
+    <section className=' items-center  h-[788px] flex flex-col pt-[10px] px-[28px]'>
+      <div className=' items-center  w-[359px] h-[776px] flex flex-col gap-[80px] py-[100px]'>
         <div>
           <H2 text='Testimonials' />
         </div>

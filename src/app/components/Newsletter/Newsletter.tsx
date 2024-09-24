@@ -25,7 +25,7 @@ const Newsletter = () => {
         <H3 text='Subscribe to our Newsletter' />
         <Paragraphe text='Available exclusivery on Figmaland' cor='#374754' />
         <div className='h-[168px] flex flex-col items-center justify-center gap-[12px] '>
-          <input type="text" id='Subscribe' name='Subscribe' placeholder='Your Email' className='w-[353px] h-[54px] text-[14px] flex flex-col px-[35px] py-[19px] gap-[47px] rounded-[39px] placeholder-black border border-gray-200' />
+          <input type="text" id='Subscribe' name='Subscribe' placeholder='Your Email' className='bg-[#F4F4F4] w-[353px] h-[54px] text-[14px] flex flex-col px-[35px] py-[19px] gap-[47px] rounded-[39px] placeholder-black border border-gray-200' />
           <Button onClick={Play} peso={100} text='Subscribe' textSize={20} width={353} height={54} />
         </div>
       </div>

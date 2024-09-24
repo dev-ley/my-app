@@ -10,7 +10,7 @@ interface ClientProps {
 
 const Client = ({ imagem, name, job }: ClientProps) => {
   return (
-    <div className='flex gap-[10px] border w-[128px] h-[42px]'>
+    <div className='flex gap-[10px]  w-[128px] h-[42px]'>
       <div className='w-[42px] h-[42px]'>
         <Image src={`/images/testimonial/${imagem}.png`} alt='logo avatar' width={127} height={51} />
       </div>

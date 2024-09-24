@@ -14,9 +14,9 @@ const Partners = () => {
                     <H2 text='Partners' />
                     <H4 text='Most calendars are designed for teams.' />
                 </div>
-                <div className='h-[558px] flex flex-col gap-[30px] py-[18px]'>
+                <div className='h-[558px] flex flex-col items-center gap-[30px] py-[18px]'>
                     <CardPartners src='/images/partners/logos_google.svg' alt='logo da google' width={193} height={63} />
-                    <CardPartners src='/images/partners/amazon.svg' alt='logo da Amazon' width={193} height={58} />
+                    <CardPartners src='/images/partners/amazon.svg' alt='logo da Amazon' width={193} height={59} />
                     <CardPartners src='/images/partners/microsoft.svg' alt='logo da microsoft' width={221} height={77} />
                 </div>
                 <div className='flex flex-col items-center h-[60px] '>

@@ -42,13 +42,13 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <form className=' w-[349px] h-[669px] flex flex-col align-top px-[49px] py-[52px]  gap-[45px]'>
+                <form className=' border border-[#DDDDDD] rounded-[20px] w-[349px] h-[669px] flex flex-col align-top px-[49px] py-[52px]  gap-[45px]'>
                     <div className='text-center'>
                         <H3 text='Contact Us' />
                     </div>
-                    <input type="text" placeholder='Your Name' className='w-[280px] h-[54px] rounded-[39px] flex flex-col gap-[47px] px-[20px] py-[19px] placeholder:text-black placeholder:text-sm' />
-                    <input type="text" placeholder='Your Email' className='w-[280px] h-[54px] rounded-[39px] flex flex-col gap-[47px] px-[20px] py-[19px] placeholder:text-black placeholder:text-sm' />
-                    <input type="text" placeholder='Your Message' className='w-[280px] h-[54px] rounded-[39px] flex flex-col gap-[47px] px-[20px] py-[19px] mb-[130px] placeholder:text-black placeholder:text-sm' />
+                    <input type="text" placeholder='Your Name' className='w-[280px] h-[54px] rounded-[39px] bg-[#F5F5F5] flex flex-col gap-[47px] px-[20px] py-[19px] placeholder:text-black placeholder:text-sm' />
+                    <input type="text" placeholder='Your Email' className='w-[280px] h-[54px] rounded-[39px]  bg-[#F5F5F5] flex flex-col gap-[47px] px-[20px] py-[19px] placeholder:text-black placeholder:text-sm' />
+                    <textarea placeholder='Your Message' className='w-[280px] h-[193px] bg-[#F5F5F5] px-[10px] py-[10px] text-left placeholder:text-black placeholder:text-sm resize-none' />
                     <Button text='Send' onClick={Play} width={145} height={56} />
                 </form>
             </div>
