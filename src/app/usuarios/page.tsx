@@ -67,9 +67,9 @@ const usuarios = [
 const Usuarios = () => {
   return (
     <div className='flex flex-wrap gap-3 '>
-      {usuarios.map((usuario) => {
+      {usuarios.map((usuario, index) => {
         return (
-          <CardUsuario nome={usuario.nome} idade={usuario.idade} email={usuario.email} telefone={usuario.telefone} />
+          <CardUsuario key={index} nome={usuario.nome} idade={usuario.idade} email={usuario.email} telefone={usuario.telefone} />
         )
       })}
     </div>
