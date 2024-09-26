@@ -15,7 +15,7 @@ const Newsletter = () => {
   const isDesktop = useIsDesktop();
 
   return (
-    <section className='border border-red-500  h-[1003px] flex flex-col justify-center items-center gap-[59px] py-[80px] px-[10px] lg:flex-row lg:h-[725px]'>
+    <section className='  h-[1003px] flex flex-col justify-center items-center gap-[59px] py-[80px] px-[10px] lg:flex-row lg:h-[725px]'>
       {isDesktop ?
         <div className='h-[347px] flex flex-col gap-[7px] lg:justify-center lg:items-center'>
           <Image src={`/images/newsletter/newsletterDesk.svg`} alt='imagem newsletter' width={677} height={514} />

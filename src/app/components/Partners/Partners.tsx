@@ -14,13 +14,13 @@ const Partners = () => {
 
     return (
         <section className='px-[20px] '>
-            <div className=' h-[1060px] flex flex-col gap-[80px] px-[20px] py-[50px] lg:max-w[1440px] lg:items-center lg:h-[932px] border border-red-500  '>
+            <div className=' h-[1060px] flex flex-col gap-[80px] px-[20px] py-[50px] lg:max-w[1440px] lg:items-center lg:h-[932px]   '>
                 <div className='h-[182px] flex flex-col items-center gap-[27px] text-center lg:w-[552px] lg:h-[222px]'>
                     <H2 text='Partners' />
                     <H4 text={isDesktop
                         ? 'Most calendars are designed for teams. Slate is designed for freelancers.'
                         : 'Most calendars are designed for teams.'} />                </div>
-                <div className=' flex flex-col items-center gap-[30px] py-[18px] lg:flex-row lg:gap-0 lg:py-0  lg:justify-center lg:max-w-[1100px] flex-wrap border border-red-500 content-center'>
+                <div className=' flex flex-col items-center gap-[30px] py-[18px] lg:flex-row lg:gap-0 lg:py-0  lg:justify-center lg:max-w-[1100px] flex-wrap  content-center'>
                     <CardPartners src='/images/partners/logos_google.svg' alt='logo da google' width={193} height={63} />
                     <CardPartners alturacx={273} larguracx={160} src='/images/partners/amazon.svg' alt='logo da Amazon' width={193} height={59} />
                     <CardPartners alturacx={165} larguracx={301} src='/images/partners/microsoft.svg' alt='logo da microsoft' width={221} height={77} />
