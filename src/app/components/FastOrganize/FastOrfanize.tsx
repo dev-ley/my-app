@@ -13,7 +13,7 @@ const FastDesk = () => {
     const isDesktop = useIsDesktop();
 
     return (
-        <section className='flex flex-col items-center  w-full h-[800px]'>
+        <section className='flex flex-col items-center  w-full h-[800px] lg:h-[924px]  lg:justify-center'>
             <div className='  flex flex-col py-[50px] h-[740px] mx-[20px] my-[30px]  lg:flex-row lg:items-center  lg:max-w-[1243px] lg:h-[472px] gap-[50px] '>
                 <div className='lg:h-[350px] lg:max-w-[532px]'>
                     <div className='flex flex-col h-[237px] gap-[17px] items-center text-center lg:items-start lg:text-start '>
