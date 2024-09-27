@@ -8,7 +8,6 @@ interface CardPartnersProps {
     height: number;
     alturacx?: number;
     larguracx?: number;
-
 }
 
 const CardPartners = ({ src, alt, width, height, larguracx, alturacx }: CardPartnersProps) => {

@@ -3,7 +3,7 @@ import React from 'react'
 import H3 from '../Texto/H3'
 import H5 from '../Texto/H5'
 import Button from '../Button/Button'
-import { Play } from '../Utils/play'
+import Play from '../Utils/play'
 
 interface CardPricingProps {
     name: string;
@@ -11,9 +11,10 @@ interface CardPricingProps {
     bg?: string;
     cortext?: string;
     bgbutton?: string;
+    alturacard?: number;
 }
 
-const CardPricing = ({ name, price, bg = 'white', bgbutton = '#2091F9', cortext = 'black' }: CardPricingProps) => {
+const CardPricing = ({ name, price, bg = 'white', bgbutton = '#2091F9', cortext = 'black', alturacard }: CardPricingProps) => {
 
     const features = [
         'Pricing Feature',
@@ -24,7 +25,7 @@ const CardPricing = ({ name, price, bg = 'white', bgbutton = '#2091F9', cortext 
     ];
 
     return (
-        <div className='w-[335px] h-[607px] flex flex-col items-center gap-[30px]  p-[40px] rounded-[10px]' style={{ backgroundColor: `${bg}`, color: `${cortext}` }} >
+        <div className='w-[335px] flex flex-col items-center content-around justify-around gap-[30px]  p-[40px] rounded-[10px]' style={{ backgroundColor: `${bg}`, color: `${cortext}`, height: `${alturacard}px` }}>
             <div className=' w-[144px] h-[80px] flex flex-col items-center text-center gap-[5px]'>
                 <H3 text={name} />
                 <H5 text='Organize across all apps by hand' />

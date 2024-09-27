@@ -3,7 +3,7 @@ import useIsDesktop from '@/app/components/Utils/isDesktop';
 import React from 'react'
 import Image from 'next/image'
 import ItemFeature from './ItemFeature'
-import { Play } from '../Utils/play'
+import Play from '../Utils/play'
 import H2 from '../Texto/H2'
 import H4 from '../Texto/H4'
 
@@ -26,7 +26,7 @@ const Feature = () => {
         </div>
 
         <div className={` items-center w-full  ${isDesktop ? 'flex flex-col-reverse' : 'flex flex-col'}`}>
-          <div className=' mt-[50px] flex flex-col justify-center items-center cursor-pointer  w-[90%] h-[229px]  rounded-[26.7px] lg:max-w-[1177px] lg:h-[658px]   bg-center bg-no-repeat' style={{ backgroundImage: `url(${isDesktop ? '/images/feature/screendesk.svg' : '/images/feature/screen.svg'})`, }}>
+          <div className=' mt-[50px] flex flex-col justify-center items-center cursor-pointer  w-[90%] h-[229px]  rounded-[26.7px] lg:max-w-[1177px] lg:h-[658px] shadow-2xl  bg-center bg-no-repeat' style={{ backgroundImage: `url(${isDesktop ? '/images/feature/screendesk.svg' : '/images/feature/screen.svg'})`, }}>
             <Image onClick={Play} src="/images/feature/playbutton.svg" alt="Botão de Play" width={isDesktop ? 187 : 61.42} height={isDesktop ? 187 : 61.42} />
           </div>
 

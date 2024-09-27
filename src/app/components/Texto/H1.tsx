@@ -14,6 +14,7 @@ const H1 = ({ text, fontSize = 74, fontFamily = 'Graphik-bold', cor }: H1Props) 
         fontSize: `${fontSize}px`,
         fontFamily: `${fontFamily}`,
         color: `${cor}`,
+        lineHeight: 1.1
       }}>
 
       {text}

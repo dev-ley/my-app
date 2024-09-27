@@ -1,5 +1,4 @@
 "use client";  // Marcar como Client Component
-
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 

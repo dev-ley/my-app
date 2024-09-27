@@ -1,6 +1,6 @@
-
-
 // playFunction.ts
-export const Play = (): void => {
+const Play = (): void => {
   alert('Você clicou no Botão!');
 };
+
+export default Play;

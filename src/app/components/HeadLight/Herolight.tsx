@@ -4,7 +4,7 @@ import Button from '../Button/Button';
 import H1 from '../Texto/H1';
 import H2 from '../Texto/H2';
 import H4 from '../Texto/H4';
-import { Play } from '../Utils/play';
+import Play from '../Utils/play';
 
 const Herolight = () => {
   const isDesktop = useIsDesktop();

@@ -7,7 +7,6 @@ interface ClientProps {
   job: string;
 }
 
-
 const Client = ({ imagem, name, job }: ClientProps) => {
   return (
     <div className='flex gap-[10px]  w-[128px] h-[42px]'>

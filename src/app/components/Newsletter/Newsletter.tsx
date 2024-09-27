@@ -5,17 +5,16 @@ import H3 from '../Texto/H3'
 import H4 from '../Texto/H4'
 import Button from '../Button/Button'
 import Image from 'next/image'
-import { Play } from '../Utils/play'
+import Play from '../Utils/play'
 import Paragraphe from '../Texto/Paragraphe'
 import useIsDesktop from '@/app/components/Utils/isDesktop';
-
 
 const Newsletter = () => {
 
   const isDesktop = useIsDesktop();
 
   return (
-    <section className='  h-[1003px] flex flex-col justify-center items-center gap-[59px] py-[80px] px-[10px] lg:flex-row lg:h-[725px]'>
+    <section className='h-[1003px] flex flex-col justify-center items-center gap-[59px] py-[80px] px-[10px] lg:flex-row lg:h-[725px]'>
       {isDesktop ?
         <div className='h-[347px] flex flex-col gap-[7px] lg:justify-center lg:items-center'>
           <Image src={`/images/newsletter/newsletterDesk.svg`} alt='imagem newsletter' width={677} height={514} />

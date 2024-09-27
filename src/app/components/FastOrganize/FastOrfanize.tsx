@@ -5,8 +5,7 @@ import H2 from '../Texto/H2'
 import H4 from '../Texto/H4'
 import Button from '../Button/Button'
 import Image from 'next/image'
-import { Play } from '../Utils/play'
-
+import Play from '../Utils/play'
 
 const FastDesk = () => {
 

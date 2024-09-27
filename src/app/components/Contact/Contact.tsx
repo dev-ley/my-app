@@ -1,5 +1,4 @@
 'use client'
-
 import React from 'react'
 import H2 from '../Texto/H2'
 import H4 from '../Texto/H4'
@@ -7,7 +6,7 @@ import Image from 'next/image'
 import H5 from '../Texto/H5'
 import H3 from '../Texto/H3'
 import Button from '../Button/Button'
-import { Play } from '../Utils/play'
+import Play from '../Utils/play'
 
 const Contact = () => {
     return (

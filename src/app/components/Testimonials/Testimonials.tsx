@@ -2,13 +2,12 @@
 import React from 'react'
 import H2 from '../Texto/H2'
 import Button from '../Button/Button'
-import { Play } from '../Utils/play'
+import Play from '../Utils/play'
 import Image from 'next/image'
 import H3 from '../Texto/H3'
 import Client from './Client'
 import useIsDesktop from '@/app/components/Utils/isDesktop';
 import H4 from '../Texto/H4'
-
 
 const Testimonials = () => {
 
