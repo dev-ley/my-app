@@ -7,7 +7,7 @@ const Navbardesk = () => {
             <nav className='   flex items-center justify-between w-[1210px] h-[156px] '>
                 <div className='flex px-[50px] py-[43px]'>
                     <div className='flex items-center w-[437px]'>
-                        <a className="p-4 text-lg hover:border border-white rounded-lg hover:bg-slate-800 w-full" href="usuarios">Home</a>
+                        <a className="p-4 text-lg hover:border border-white rounded-lg hover:bg-slate-800 w-full" href="#">Home</a>
                         <a className="p-4 text-lg hover:border border-white rounded-lg hover:bg-slate-800 w-full" href="#">Product</a>
                         <a className="p-4 text-lg hover:border border-white rounded-lg hover:bg-slate-800 w-full" href="#">Pricing</a>
                         <a className="p-4 text-lg hover:border border-white rounded-lg hover:bg-slate-800 w-full" href="#">About</a>

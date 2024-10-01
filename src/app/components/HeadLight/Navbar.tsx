@@ -60,7 +60,7 @@ const Navbar = () => {
         style={{ width: '250px' }} // Pode ajustar dinamicamente o width em Tailwind se necessário
 >
 
-        <a className="p-4 text-lg hover:bg-gray-600 w-full" href="usuarios">Home</a>
+        <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">Home</a>
         <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">Product</a>
         <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">Pricing</a>
         <a className="p-4 text-lg hover:bg-gray-600 w-full" href="#">About</a>
