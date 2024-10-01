@@ -14,7 +14,7 @@ const Contact = () => {
     const isDesktop = useIsDesktop();
 
     return (
-        <section className=' h-[1569px] flex flex-col items-center py-[99px]  lg:pt-[153px] pb-[52px] lg:h-[1206px]'>
+        <section id='contact' className=' h-[1569px] flex flex-col items-center py-[99px]  lg:pt-[153px] pb-[52px] lg:h-[1206px]'>
             <div className=' w-[358px] h-[1370px] flex flex-col items-center justify-around py-[50px]  lg:w-[1228px] lg:h-[1001px] lg:justify-center'>
                 <div className=' w-[285px] h-[182px] flex flex-col items-center gap-[7px] text-center lg:w-[552px] lg:my-[50px]'>
                     <H2 text='Contact Us' />
