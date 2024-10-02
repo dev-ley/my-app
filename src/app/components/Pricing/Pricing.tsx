@@ -15,7 +15,7 @@ const Pricing = () => {
     <section className=' h-[2430px] flex flex-col items-center gap-[10px] px-[28px] bg-[#252B42]  lg:h-[1155px]'>
       <div className=' h-[2419px] flex flex-col items-center gap-[80px] px-[13px] py-[100px]    lg:h-[1155px] lg:w-[1440px]'>
 
-        <div className=' text-center w-[285px] h-[182px] flex flex-col items-center gap-[7px]  lg:h-[1155px] lg:w-[1777px]'>
+        <div className=' text-center w-[285px] h-[182px] flex flex-col items-center gap-[7px]  lg:h-[1155px] '>
           <div className=' w-[178px] h-[75px] flex flex-col gap-[10px]'>
             <H2 text='Pricing' cor='white' />
           </div>
